@@ -12,12 +12,11 @@ import calendar
 # cd C:\Users\Admin\Desktop\pyvacature -:- python vacature.py
 
 """
-!!!!!!!!!!!!!!!IMPORTANT!!!!!!!!!
-Add a number telling how many vacatures were excluded for each exclusion keyword.
+ToDo:
+Low priority:
+-Add a number telling how many vacatures were excluded for each exclusion keyword.
 example: 
-36 thuishulp/kuishulp/kuis*/schoonma*
 12 beenhouwer
-etc. in red with prob dropdown
 
 Spec:
 -Should add something that decides exclusion by combining type of job with location
