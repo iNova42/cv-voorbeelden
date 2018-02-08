@@ -1,2 +1,3 @@
 vacature.py
-Een simpel snel in elkaar gegooid scriptje dat helpt met "breed" zoeken zoals de VDAB vraagt, de VDAB vacature website heeft namelijk een heel beperkte aantal characters beschikbaar voor keywords, waardoor je anders zou moeten beslissen of je bv beenhouwer of timmerman wegfiltreert, terwijl deze script effectief alles correct weg filtreet wat men wil en de resultate via een html pagina terug geeft.
+
+Een simpel snel in elkaar gegooid scriptje dat helpt met "breed" zoeken zoals dat VDAB vraagt. De VDAB vacature website heeft namelijk een heel beperkte aantal characters beschikbaar voor keywords, waardoor je anders zou moeten beslissen of je bv beenhouwer of timmerman wegfiltreert, niet beiden, terwijl deze script effectief alles wat men ingeeft correct weg filtreet en de resultaten via een html pagina terug geeft.
