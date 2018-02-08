@@ -5,7 +5,7 @@ import urllib.request #to retrieve the pages containing the vacatures
 import time
 from selenium import webdriver
 import re #regular expressions so I can get the url with a non-buildin wildcard like the damned pleb I end up being
-import traceback # but atleast I'm not handling exceptions like a pleb, this will add a full traceback to the exception print, should've been standard in python tho
+import traceback # apt way of handling exception traceback in python, this will add a full traceback to the exception print, should've been standard in python tho
 import codecs
 import calendar
 
