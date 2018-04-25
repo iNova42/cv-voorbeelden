@@ -152,7 +152,7 @@ namespace ExaminatieWPF
 						GrootteLabel.Content = invoer.ReadLine();
 
 						//Canvas children
-						//Serialization lijkt me hier echt overbodig, het zou hier geheel onnodig de "Make every program a filter" Unix Philosophy regel breken
+						//Serialization lijkt me hier echt overbodig, het zou hier >geheel onnodig< zowel de KISS als de "Make every program a filter" Unix Philosophy regel breken
 						string line;
 						while (true)
 						{
