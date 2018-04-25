@@ -4,6 +4,8 @@ Een simpel snel in elkaar gegooid scriptje dat helpt met "breed" zoeken zoals de
 
 Enkele op te merken technologien:
 
+-Selenium voor browser automation
+
 -BeautifulSoup voor html parsing
 
--Selenium voor browser automation
+
