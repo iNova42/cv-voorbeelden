@@ -1,0 +1,34 @@
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\bin\Debug\ExaminatieWPF.exe.config
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.csprojResolveAssemblyReference.cache
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\Afdrukvoorbeeld.g.cs
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\App.g.cs
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF_MarkupCompile.cache
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF_MarkupCompile.lref
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\bin\Debug\ExaminatieWPF.exe
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\bin\Debug\ExaminatieWPF.pdb
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\Afdrukvoorbeeld.baml
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\MainWindow.baml
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.g.resources
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.Properties.Resources.resources
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.csproj.GenerateResource.Cache
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.exe
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.pdb
+C:\Users\Admin\docs\C\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\App.baml
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\bin\Debug\ExaminatieWPF.exe.config
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.exe
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.pdb
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\bin\Debug\ExaminatieWPF.exe
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\bin\Debug\ExaminatieWPF.pdb
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\Afdrukvoorbeeld.g.cs
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\App.g.cs
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF_MarkupCompile.cache
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF_MarkupCompile.lref
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\App.baml
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\Afdrukvoorbeeld.baml
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\MainWindow.baml
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.g.resources
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.Properties.Resources.resources
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.csproj.GenerateResource.Cache
+C:\Users\Admin\docs\C\backup wpf exam 10_50\20170228_WPF\20170228_WPF\ExaminatieWPF\ExaminatieWPF\obj\Debug\ExaminatieWPF.csprojResolveAssemblyReference.cache
