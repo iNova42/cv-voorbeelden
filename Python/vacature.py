@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup #to parse the pages that are retrieved
 import urllib.request #to retrieve the pages containing the vacatures
 import time
 from selenium import webdriver
-import re #regular expressions so I can get the url with a non-buildin wildcard like the damned pleb I end up being
+import re #regular expressions so I can get the url with a non-buildin wildcard
 import traceback # apt way of handling exception traceback in python, this will add a full traceback to the exception print, should've been standard in python tho
 import codecs
 import calendar
@@ -20,7 +20,7 @@ example:
 
 Spec:
 -Should add something that decides exclusion by combining type of job with location
- For example: Bakkerij + GENTBRUGGE + (Weekendwerk OR feestdagen) = exclusion (as earliest train there arrives way too late in the weekend)
+ For example: Bakkerij + ZELE + (Weekendwerk) = exclusion (Breed soliciteren was een ding maar ze nemen toch enkel lokale mensen voor zo'n job)
 """
 
 """
@@ -54,10 +54,13 @@ def main():
 		Excl_output_line_counter = 0
 		
 		problematic_interimsList = ["Let's Work", "Vivaldis Interim"]
-		problematic_areaList = ["SINT-NIKLAAS"]
-		unreachable_locationList = ["AALST", "BERLARE", "BORNEM", "BUGGENHOUT", "DESTELBERGEN", "DESTELDONK", "ERPE-MERE", "ERTVELDE", "EVERGEM", "GIJZEGEM", "HAMME", "HERDERSEM", "HEUSDEN", "KALKEN", "LAARNE", "LEDE", "LEBBEKE", "MELLE", "MELSELE", "MERELBEKE", "MOORSEL", "NIEUWERKERKEN", "OOSTAKKER", "OPWIJK", "Regio Aalst", "SCHOONAARDE", "SERSKAMP", "SINT-AMANDS", "SINT-GILLIS-WAAS", "SINT-KRUIS-WINKEL", "SINT-PAUWELS", "TEMSE", "VRASENE", "WAASMUNSTER", "WACHTEBEKE", "WETTEREN", "WICHELEN", "WIEZE", "ZELZATE"]
-		currently_excluded_jobsList = ["Beenhouwer", "Huishoudhulp", "Thuishulp", "Boekhouder", "Operator", "Chauffeur", "Laborant", "SOLUTION OWNER", "VERTEGENWOORDIGER"]
-		exclusion_candidates_List = ["chemie", ""]
+		problematic_areaList = ["DAKNAM"]
+		#Lower priority locations go to their own page
+		unreachable_locationList = ["BERLARE", "BUGGENHOUT", "DESTELBERGEN", "DESTELDONK", "ERPE-MERE", "ERTVELDE", "EVERGEM", "GIJZEGEM", "HAMME", "HERDERSEM", "HEUSDEN", "KALKEN", "LAARNE", "LEDE", "LEBBEKE", "MELLE", "MELSELE", "MERELBEKE", "MOORSEL", "NIEUWERKERKEN", "OOSTAKKER", "OPWIJK", "SCHOONAARDE", "SERSKAMP", "SINT-AMANDS", "SINT-GILLIS-WAAS", "SINT-KRUIS-WINKEL", "SINT-PAUWELS", "VRASENE", "WAASMUNSTER", "WACHTEBEKE", "WETTEREN", "WICHELEN", "WIEZE", "ZELZATE"]
+		#The vdab allows exclusions trough url parameters, but you're limited to a certain amount of characters in the url! >So here we add more.
+		currently_excluded_jobsList = ["Beenhouwer", "Boekhouder", "Operator", "Laborant",]
+		#Just a reminder:
+		exclusion_candidates_List = ["chemie"]
 		
 		url_ID_List = []
 		url_ID_List.append(00000000) #a dummy addition
@@ -77,10 +80,10 @@ def main():
 			driver.get(VDABsite_url+'&p='+n)
 			time.sleep(3)
 			html = driver.page_source
-			html = html.encode("ascii", "ignore") #removes all the non-ascii characters, it's basicly a simple solution for badly encoded characters
+			html = html.encode("ascii", "ignore") #removes all the non-ascii characters, it's actually my KISS solution for badly encoded characters, work really well in this particular case
 			html = html.decode('ascii', 'strict')
 			soup = BeautifulSoup(html)
-			#\d matches [0-9] and other digit characters, for example Eastern Arabic numerals ٠١٢٣٤٥٦٧٨٩
+			#\d matches [0-9] (and actually others like Eastern Arabic numerals ٠١٢٣٤٥٦٧٨٩)
 			job_title_html_List = soup.findAll("a", attrs={ 'href':re.compile(r'/jobs/vacatures/\d.*')} )
 			employers_html_List = soup.findAll("strong", attrs={'data-ng-bind-html':'vacature.naam_vestiging.value'} )
 			locations_html_List = soup.findAll("strong", attrs={'data-ng-if':re.compile(r'(vacature.gemeente|vacature.regio_naam)$')} ) 
