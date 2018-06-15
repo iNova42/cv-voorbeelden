@@ -18,6 +18,12 @@ var resultaatTabelGoed, resultaatTabelSlecht: tweeDimensionaleStatischeArray;
 
 var aantalFoutieven, i, rijGlobal, kolomGlobal, productNumber, productResult, ErrorCode, margin:integer;
 
+{Dutch comments are specifically for the head of the course who would examine the code;
+I normally write documentation assuming the company might or does employ developers not fluent in the Dutch language.}
+
+{Nederlandstalige opmerkingen zijn specifiek voor opleidingsverantwoordelijke die de code nakijkt; 
+Ik schrijf documentatie normaal ervanuitgaand dat er anderstalige technische collega's kunnen zijn, die het ook moeten kunnen begrijpen.}
+
 
 //*******************************************************************************
 //This procedure sets all values to 0 for each element within the passed 2d array
@@ -27,10 +33,10 @@ procedure Vul2DArrayAlleElementenMet0(var pArray: tweeDimensionaleStatischeArray
 var kolom, rij: integer;
 
 begin
-	//voor elke rij
+	//for each row
 	for rij := 0 to (LENGTH(pArray)-1) do
 	begin
-		//per element (van de rij en de onderliggende kolom)
+		//for each element in that row
 		for kolom := 0 to (LENGTH(pArray[0])-1) do
 			begin
 				pArray[rij, kolom] := 0;
